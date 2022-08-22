@@ -361,6 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030435296}
   - component: {fileID: 1030435295}
+  - component: {fileID: 1030435298}
   - component: {fileID: 1030435294}
   - component: {fileID: 1030435297}
   m_Layer: 0
@@ -510,6 +511,34 @@ PolygonCollider2D:
       - {x: 0.03, y: -0.65}
       - {x: 0.17, y: -0.63}
       - {x: 0.22, y: -0.61}
+--- !u!114 &1030435298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030435293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05426826374b3ef4bbf5b163b6481c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_JumpForce: 700
+  m_CrouchSpeed: 0.4
+  m_MovementSmoothing: 0.05
+  m_AirControl: 0
+  m_WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 55
+  m_GroundCheck: {fileID: 0}
+  m_CeilingCheck: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1398759105
 GameObject:
   m_ObjectHideFlags: 0

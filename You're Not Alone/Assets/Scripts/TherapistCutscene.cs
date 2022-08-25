@@ -30,12 +30,12 @@ public class TherapistCutscene : MonoBehaviour
         therapistText.text = "";
         mikeText.text = "Mike: He was there again.";
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
 
         mikeText.text = "";
         therapistText.text = "Therapist: The Demon?";
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
 
         therapistText.text = "";
         mikeText.text = "Mike: Yes. He came just as I woke up.";

@@ -775,8 +775,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You're finally awake.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d7cf7d8d4cd8e147a9402403b6ff232, type: 2}
+  m_sharedMaterial: {fileID: 5079945750300423552, guid: 1d7cf7d8d4cd8e147a9402403b6ff232, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 140.28412, y: 170.22087, z: 138.86304, w: 170.8138}
+  m_margin: {x: -5.9986877, y: 170.22087, z: 6.000061, w: 170.8138}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3666,8 +3666,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You're finally awake.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1d7cf7d8d4cd8e147a9402403b6ff232, type: 2}
+  m_sharedMaterial: {fileID: 5079945750300423552, guid: 1d7cf7d8d4cd8e147a9402403b6ff232, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3727,7 +3727,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 140.28412, y: 170.22087, z: 138.86304, w: 170.8138}
+  m_margin: {x: -6.000061, y: 170.22087, z: 5.999756, w: 170.8138}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

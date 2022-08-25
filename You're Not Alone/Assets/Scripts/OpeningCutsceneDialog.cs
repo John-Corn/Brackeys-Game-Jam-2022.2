@@ -28,7 +28,7 @@ public class OpeningCutsceneDialog : MonoBehaviour
 
     IEnumerator Dialog()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
 
         demonText.text = "You’re finally awake.";
 

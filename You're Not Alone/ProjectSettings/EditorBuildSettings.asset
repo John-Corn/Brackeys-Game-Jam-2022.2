@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewspaperScene.unity
     guid: 4d02e0c6971b746428f68beb88a267a0
-  - enabled: 1
-    path: Assets/Scenes/EndCredits.unity
-    guid: 2faa6d4114a091640b96e2fc4cff80f8
   m_configObjects: {}

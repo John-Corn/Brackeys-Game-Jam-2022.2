@@ -2,40 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class objects : MonoBehaviour
+public class EndGame : MonoBehaviour
 {
-
-    public GameObject objectBox;
-    public GameObject pills;
     public GameObject mark;
-    public GameObject mAudio;
     public bool objectActive;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && objectActive)
         {
-            if (objectBox.activeInHierarchy)
-            {
-                objectBox.SetActive(false);
-                PlayerMovement.playerControlsEnabled = true;
-                pills.SetActive(false);
-                mAudio.SetActive(true);
-            }
-            else
-            {
-                objectBox.SetActive(true);
-                PlayerMovement.playerControlsEnabled = false;
-            }
+            SceneManager.LoadScene("NewspaperScene");
         }
     }
 
@@ -53,7 +32,6 @@ public class objects : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             objectActive = false;
-            objectBox.SetActive(false);
             mark.SetActive(false);
         }
     }

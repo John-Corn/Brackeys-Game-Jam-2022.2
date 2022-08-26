@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TherapistCutscene : MonoBehaviour
 {
@@ -136,9 +137,13 @@ public class TherapistCutscene : MonoBehaviour
         therapistText.text = "";
         mikeText.text = "Mike: I will thanks.";
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
 
         therapistText.text = "";
         mikeText.text = "";
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene("End Cutscene");
     }
 }
